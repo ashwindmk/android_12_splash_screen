@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#202020</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_splash_screen</item>
+        <item name="windowSplashScreenIconBackgroundColor">#00FF00</item>
+
+        <!-- Switch to original app theme after splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.MyApp</item>
+    </style>
+</resources>
